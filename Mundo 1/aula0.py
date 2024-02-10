@@ -1,3 +1,3 @@
 n = input ('Qual o seu nome? ')
-print ('oi', n,'prazer em te conhecer')
+print ('Oi', n,'prazer em te conhecer')
 
