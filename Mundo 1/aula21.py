@@ -1,0 +1,1 @@
+n = str(input('Qual é seu nome completo? '))
