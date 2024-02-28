@@ -1,5 +1,8 @@
 import pygame
+
 pygame.init()
-pygame.mixer_music.load('EyeoftheTiger8bit.mp3')
-pygame.mixer_music.play()
+pygame.mixer.music.load('C:/Users/daarc/Downloads/EyeoftheTiger8bit.mp3')
+pygame.mixer.music.play()
 pygame.event.wait()
+
+
