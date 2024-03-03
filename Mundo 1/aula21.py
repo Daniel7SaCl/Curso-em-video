@@ -1,1 +1,5 @@
-n = str(input('Qual é seu nome completo? '))
+n = str(input('Qual é seu nome completo? ')).strip()
+print('Seu nome em maiusculas é {}'.format(n.upper()))
+print('Em minusculas {}'.format (n.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(n) - n.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(n.find(' ')))
