@@ -1,5 +1,4 @@
 import random
-
 print("Bem-vindo ao Jokenpô!")
 while True:
     player = input("Escolha pedra, papel ou tesoura (ou 'sair' para sair): ").lower()
@@ -9,11 +8,9 @@ while True:
     elif player != 'pedra' and player != 'papel' and player != 'tesoura':
         print("Escolha inválida. Tente novamente.")
         continue
-
     computer = random.choice(['pedra', 'papel', 'tesoura'])
     print("Você escolheu: {}".format(player))
     print("O computador escolheu: {}".format(computer))
-
     if player == computer:
         print("Empate!")
     elif (player == 'pedra' and computer == 'tesoura') or \
