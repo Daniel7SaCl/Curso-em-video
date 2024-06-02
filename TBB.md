@@ -14,3 +14,17 @@ Ambientes Domésticos: Para quem deseja organizar sua própria coleção de livr
 Pequenas Livrarias: Para gerenciar o estoque de livros disponíveis para venda e controlar os empréstimos entre os funcionários.
 Clubes de Leitura: Para manter uma lista dos livros que estão sendo lidos pelo grupo e quem os possui no momento.
 Eventos Literários: Facilitando o controle dos livros disponíveis para empréstimo durante eventos de leitura ou feiras de livros.
+
+## Contexto Negocial
+
+O projeto "The Back Book" visa facilitar o gerenciamento de bibliotecas em diversos contextos. Na primeira infância, o acesso a livros de qualidade é crucial para o desenvolvimento cognitivo e emocional das crianças. Muitas famílias enfrentam desafios para fornecer uma variedade de livros adequados devido a custos e falta de recursos.
+
+Além disso, embora as escolas e bibliotecas públicas ofereçam acesso a livros, a continuidade da leitura e do estímulo à leitura em casa é essencial. O "The Back Book" proporciona uma solução prática para gerenciar coleções de livros, facilitando o empréstimo e a devolução, garantindo que mais famílias possam acessar recursos literários importantes tanto em instituições educacionais quanto em ambientes domésticos.
+
+## Contexto Tecnico
+
+A aplicação "The Back Book" combina Python com a biblioteca JSON para armazenamento persistente de dados, e uma interface baseada em linha de comando para interação intuitiva.
+
+Os usuários podem adicionar novos livros, visualizar a coleção atual, registrar empréstimos e devoluções, e listar todos os empréstimos ativos.
+
+O programa utiliza um arquivo JSON para armazenar as informações de livros e empréstimos, garantindo que os dados sejam mantidos entre sessões e proporcionando uma solução eficiente para o gerenciamento de bibliotecas em diversos contextos.

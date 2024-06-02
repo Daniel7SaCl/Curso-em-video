@@ -1,0 +1,18 @@
+{
+    "livros": {
+        "dom casmurro": "machado de assis",
+        "1984": "jorge borreu"
+    },
+    "emprestimos": {
+        "dom casmurro": {
+            "importancia": "raro",
+            "data_emprestimo": "2024-05-29",
+            "devolvido": false
+        },
+        "1984": {
+            "importancia": "du carai",
+            "data_emprestimo": "2024-05-29",
+            "devolvido": false
+        }
+    }
+}
